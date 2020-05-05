@@ -1,1 +1,5 @@
-/src/
+/bin/
+/out/
+/.idea/
+algo.iml
+/src/tests/
