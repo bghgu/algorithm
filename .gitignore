@@ -3,3 +3,4 @@
 /.idea/
 algo.iml
 /src/tests/
+.DS_Store
