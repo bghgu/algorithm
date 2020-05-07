@@ -68,10 +68,6 @@ public class Main_2580 {
 
         list = tempList;
 
-        for (Pair p : list) {
-            System.out.println(p.toString());
-        }
-
         func(0);
 
         bw.write(sb.toString());
@@ -109,7 +105,7 @@ public class Main_2580 {
             return false;
         }
         for (int j = 0; j < 9; j++) {
-            if (check2(j)) {
+            if (!check2(j)) {
                 check2 = false;
                 break;
             }
@@ -119,7 +115,7 @@ public class Main_2580 {
         }
         for (int i = 0; i < 9; i += 3) {
             for (int j = 0; j < 9; j += 3) {
-                if (check3(i, j)) {
+                if (!check3(i, j)) {
                     check3 = false;
                     break;
                 }
@@ -194,5 +190,23 @@ public class Main_2580 {
      * 2. 굵은 선으로 구분되어 있는 3 * 3 정사각형 안에도 1부터 9까지의 숫자가 한 번씩만 나타나야 한다.
      *
      *
+     */
+
+    /*
+4 6 9 2 7 8 1 3 5
+3 2 1 5 4 6 8 9 7
+8 7 4 9 1 3 5 2 6
+5 9 6 8 2 7 4 1 3
+9 1 7 6 5 2 3 8 4
+6 4 3 7 8 1 9 5 2
+2 5 8 3 9 4 7 6 1
+
+4 6 9 2 7 8 1 3 5
+3 2 1 5 4 6 8 9 7
+8 7 4 9 1 3 5 2 6
+5 9 6 8 2 7 4 1 3
+9 1 7 6 5 2 3 8 4
+6 4 3 7 8 1 9 5 2
+2 5 8 3 9 4 7 6 1
      */
 }
