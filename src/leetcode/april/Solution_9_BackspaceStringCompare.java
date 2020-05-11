@@ -36,7 +36,6 @@ public class Solution_9_BackspaceStringCompare {
             if (s.equals("#")) {
                 if (!deque.isEmpty()) {
                     System.out.println(deque.pop());
-                    //deque.pop();
                 }
             } else {
                 deque.push(s);
