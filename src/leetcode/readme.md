@@ -49,7 +49,7 @@
 | 5/9  |Valid Perfect Square| 수학 | O |
 | 5/10  |Find the Town Judge|  | X |
 | 5/11  |Flood Fill| BFS | O |
-| 5/12  ||           |           |
+| 5/12  |Single Element in a Sorted Array| 셋 | O |
 | 5/13  ||           |           |
 | 5/14  ||           |           |
 | 5/15  ||           |           |
