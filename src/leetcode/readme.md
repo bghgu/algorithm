@@ -52,11 +52,11 @@
 | 5/12  |Single Element in a Sorted Array| 셋 | O |
 | 5/13  |Remove K Digits| 스택 | O(다시) |
 | 5/14  |Implement Trie (Prefix Tree)| 트라이 | O(다시) |
-| 5/15  ||           |           |
-| 5/16  ||           |           |
-| 5/17  ||           |           |
-| 5/18  ||           |           |
-| 5/19  ||           |           |
+| 5/15  |Maximum Sum Circular Subarray|           | X |
+| 5/16  |Odd Even Linked List|           | X |
+| 5/17  |Find All Anagrams in a String|           | X |
+| 5/18  |Permutation in String| 문자열 | O(다시) |
+| 5/19  |Online Stock Span| 리스트 | O |
 | 5/20  ||           |           |
 | 5/21  ||           |           |
 | 5/22  ||           |           |
