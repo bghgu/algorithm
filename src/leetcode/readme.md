@@ -1,4 +1,4 @@
-# Oleetcode
+# leetcode
 ## 4월
 
 | 날짜 | 문제 이름 | 문제 유형 | 풀이 여부 |
@@ -61,7 +61,7 @@
 | 5/21  |Count Square Submatrices with All Ones| 구현 | O |
 | 5/22  |Sort Characters By Frequency| 맵, 우선순위 큐 | O |
 | 5/23  |Interval List Intersections| 구현 | O(다시) |
-| 5/24  ||           |           |
+| 5/24  |Construct Binary Search Tree from Preorder Traversal| 트리 | O |
 | 5/25  ||           |           |
 | 5/26  ||           |           |
 | 5/27  ||           |           |
