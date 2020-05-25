@@ -62,7 +62,7 @@
 | 5/22  |Sort Characters By Frequency| 맵, 우선순위 큐 | O |
 | 5/23  |Interval List Intersections| 구현 | O(다시) |
 | 5/24  |Construct Binary Search Tree from Preorder Traversal| 트리 | O |
-| 5/25  ||           |           |
+| 5/25  |Uncrossed Lines| LIS, DP | O(다시) |
 | 5/26  ||           |           |
 | 5/27  ||           |           |
 | 5/28  ||           |           |
