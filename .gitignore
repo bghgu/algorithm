@@ -4,3 +4,4 @@
 algo.iml
 /src/tests/
 .DS_Store
+/lib
