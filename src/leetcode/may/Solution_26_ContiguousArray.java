@@ -4,7 +4,7 @@ package leetcode.may;
  * Created by ccoli on 2020/05/26.
  */
 
-public class Solution_26_ {
+public class Solution_26_ContiguousArray {
 
     public static void main(String... args) {
         char a = 'a';
