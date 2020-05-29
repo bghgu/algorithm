@@ -48,8 +48,6 @@ public class Solution_27_PossibleBipartition2 {
             }
         }
 
-        System.out.println(count + " " + temp);
-
         return count == temp;
     }
 
@@ -64,15 +62,5 @@ public class Solution_27_PossibleBipartition2 {
             }
         }
         return true;
-    }
-
-    private static class Pair {
-        private int x;
-        private int y;
-
-        public Pair(final int x, final int y) {
-            this.x = x;
-            this.y = y;
-        }
     }
 }
