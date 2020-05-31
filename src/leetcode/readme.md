@@ -68,7 +68,7 @@
 | 5/28  |Counting Bits| 수학 | O |
 | 5/29  |Course Schedule| DFS | O |
 | 5/30  |K Closest Points to Origin| 우선순위 큐 | O |
-| 5/31  ||           |           |
+| 5/31  |Edit Distance| 편집 거리 알고리즘 | O(다시) |
 
 ## 6월
 

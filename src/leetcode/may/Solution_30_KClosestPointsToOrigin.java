@@ -6,7 +6,7 @@ import java.util.*;
  * Created by ccoli on 2020/05/30.
  */
 
-public class Solution_29_KClosestPointsToOrigin {
+public class Solution_30_KClosestPointsToOrigin {
 
     public static void main(String... args) {
         int[][] arr1 = {{1, 3}, {-2, 2}};
