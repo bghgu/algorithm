@@ -15,10 +15,26 @@ public class Solution_1_InvertBinaryTree {
         treeNode.right.left = new TreeNode(6);
         treeNode.right.right = new TreeNode(9);
         invertTree(treeNode);
+        invertTree(null);
     }
 
     public static TreeNode invertTree(TreeNode root) {
-        root.change();
+        if (root == null) return null;
+        if (root.left != null && root.right != null) {
+            TreeNode temp = root.left;
+            root.left = root.right;
+            root.right = temp;
+            invertTree(root.left);
+            invertTree(root.right);
+        } else if (root.left != null && root.right == null) {
+            root.right = root.left;
+            root.left = null;
+            invertTree(root.right);
+        } else if (root.left == null && root.right != null) {
+            root.left = root.right;
+            root.right = null;
+            invertTree(root.left);
+        }
         return root;
     }
 
@@ -38,24 +54,6 @@ public class Solution_1_InvertBinaryTree {
             this.val = val;
             this.left = left;
             this.right = right;
-        }
-
-        public void change() {
-            if (this.left != null && this.right != null) {
-                TreeNode temp = this.left;
-                this.left = this.right;
-                this.right = temp;
-                this.left.change();
-                this.right.change();
-            } else if (this.left != null && this.right == null) {
-                this.right = this.left;
-                this.left = null;
-                this.right.change();
-            } else if (this.left == null && this.right != null) {
-                this.left = this.right;
-                this.right = null;
-                this.left.change();
-            }
         }
     }
 }
