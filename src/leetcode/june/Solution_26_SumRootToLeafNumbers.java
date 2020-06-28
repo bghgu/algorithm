@@ -7,7 +7,7 @@ package leetcode.june;
 public class Solution_26_SumRootToLeafNumbers {
 
     public static void main(String... args) {
-        
+
     }
 
     public int sumNumbers(TreeNode root) {
