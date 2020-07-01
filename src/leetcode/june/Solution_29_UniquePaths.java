@@ -4,7 +4,7 @@ package leetcode.june;
  * Created by ccoli on 2020/06/29.
  */
 
-public class Solution_28_UniquePaths {
+public class Solution_29_UniquePaths {
 
     public static void main(String... args) {
         System.out.println(uniquePaths(3, 2));

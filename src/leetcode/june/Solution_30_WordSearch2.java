@@ -7,7 +7,7 @@ import java.util.List;
  * Created by ccoli on 2020/06/30.
  */
 
-public class Solution_29_WordSearch2 {
+public class Solution_30_WordSearch2 {
 
     public static void main(String... args) {
         char[][] arr = {
