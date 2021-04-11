@@ -1,20 +1,38 @@
 package beakjoon;
 
-import java.io.*;
+import java.io.IOException;
 
 /**
- * Created by ccoli on 2020/08/30.
+ * Created by ds on 2020/08/30.
  */
 
 public class Main {
 
-    private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
     public static void main(String... args) throws IOException {
+        String instanceId = "a_e6z";
+        long receiverUid = Long.parseLong(instanceId.replaceFirst("a_", ""), Character.MAX_RADIX);
+        System.out.println(receiverUid);
 
-        bw.write("");
-        bw.close();
-        br.close();
+        System.out.println(calcChunkSize(300, SPEED.MIDDLE));
+
     }
+
+    public static int calcChunkSize(int chunkSize, SPEED speed) {
+        System.out.println(speed.ordinal());
+        return (int) (chunkSize * (Math.pow(3, speed.ordinal()) / 3));
+    }
+
+    public static enum SPEED {
+        LOW, MIDDLE, HIGH;
+
+        public static SPEED parse(int speedLevel) {
+            for (SPEED speed : SPEED.values()) {
+                if (speed.ordinal() == speedLevel) {
+                    return speed;
+                }
+            }
+            return LOW;
+        }
+    }
+
 }
